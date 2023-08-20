@@ -18,7 +18,6 @@ Fill a brief description of this experiment here
 
 ### Contributors List
 
-<<<<<<< HEAD
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 01 | ANUPAM VYAS| FACULTY | EEC | INSTITUTE OF ENGINEERING & TECHNOLOGY, BUNDELKHAND UNIVERSITY,JHANSI| .
