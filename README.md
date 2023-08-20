@@ -17,7 +17,6 @@ Fill a brief description of this experiment here
 <b> Department |  
 
 ### Contributors List
-:--|:--|
 
 SrNo| Name        | Faculty  | Department     | Institute                 | Email id
     |             | or       |                |                           |
