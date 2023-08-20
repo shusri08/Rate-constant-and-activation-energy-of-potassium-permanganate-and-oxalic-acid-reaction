@@ -10,7 +10,7 @@
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> PRATIK SEN
+<b>Name of Developer | <b> Fill the name of experiment owner here 
 :--|:--|
 <b> Institute | <b>  
 <b> Email id|     <b>  
@@ -18,26 +18,7 @@ Fill a brief description of this experiment here
 
 ### Contributors List
 
-SrNo| Name        | Faculty  | Department     | Institute                 | Email id
-    |             | or       |                |                           |
-    |             | Student  |                |                           |
-
- 01.| ANUPAM      | FACULTY  | EEC            | INSTITUTE OF ENGINEERING  |
-    | VYAS        |          |                | & TECHNOLOGY, BUNDELKHAND |
-    |             |          |                | UNIVERSITY, JHANSI        |
- 
- 02.| ANJALI      | FACULTY  | EEC            | INSTITUTE OF ENGINEERING  |
-    | SRIVASTAVA  |          |                | & TECHNOLOGY, BUNDELKHAND |
-    |             |          |                | UNIVERSITY, JHANSI        |
-
- 03.| SHUBHAM     | STUDENT  | MASTER OF      | INSTITUTE OF INFORMATION  | shubhamsri708161@gmail.com
-    | SRIVASTAVA  |          | COMPUTER       | & TECHNOLOGY, BUNDELKHAND |
-    |             |          | APPLICATION    | UNIVERSITY,JHANSI         |               
-
- 04.| MOHAMMAD    | STUDENT  | MASTER OF      | INSTITUTE OF INFORMATION  | khanmdshoaib8@gmail.com
-    | SHOAIB KHAN |          | COMPUTER       | & TECHNOLOGY, BUNDELKHAND |
-    |             |          | APPLICATION    | UNIVERSITY,JHANSI         |
-
- 05.| SHIKHA      | STUDENT  | MASTER OF      | INSTITUTE OF INFORMATION  | shikhabhu099@gmail.com
-    | GUPTA       |          | COMPUTER       | & TECHNOLOGY, BUNDELKHAND |
-    |             |          | APPLICATION    | UNIVERSITY,JHANSI         |
+SrNo | Name | Faculty or Student | Department| Institute | Email id
+:--|:--|:--|:--|:--|:--|
+01 | ANUPAM VYAS| FACULTY | EEC | INSTITUTE OF ENGINEERING & TECHNOLOGY, BUNDELKHAND UNIVERSITY,JHANSI| .
+02 | . | . | . | . | .
