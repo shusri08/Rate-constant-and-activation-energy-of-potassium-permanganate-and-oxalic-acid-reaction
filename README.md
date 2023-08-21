@@ -10,7 +10,7 @@
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> PRATIK SEN
+<b>Name of Developer | <b> PRATIK SEn
 :--|:--|
 <b> Institute | <b>  
 <b> Email id|     <b>  
