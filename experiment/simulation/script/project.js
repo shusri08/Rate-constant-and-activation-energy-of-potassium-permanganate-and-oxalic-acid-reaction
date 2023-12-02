@@ -100,57 +100,57 @@ function ok() {
     }
 
     else if (f == 11) {
-        invisible();
-        // pdish.style.opacity = "0%"
-        // reading.style.opacity = "0%"
-        // spatula.style.opacity = "0%"
-        // onbtn.style.opacity = "0%"
-        // tarebtn.style.opacity = "0%"
-        // sp.style.opacity = "0%"
-        // sp1.style.opacity = "0%"
-        // fnl.style.opacity = "0%"
-        // flask.style.opacity = "0%"
-        // eflask.style.opacity = "0%"
-        // machine.style.opacity = "0%"
-        // dwater.style.opacity = "0%"
-        // water.style.opacity = "0%"
-        // //fflask.style.opacity="0%"
-        // oacrystal.style.opacity = "0%"
-        // ecflask.style.visibility = "visible"
-        // epipette.style.visibility = "visible"
-        // abeaker.style.visibility = "visible"
-        // epipette.style.transform = "rotate(-90deg)"
-        // fpipette.style.transform = "rotate(-90deg)"
+        pdish.style.opacity = "0%"
+        reading.style.opacity = "0%"
+        spatula.style.opacity = "0%"
+        onbtn.style.opacity = "0%"
+        tarebtn.style.opacity = "0%"
+        sp.style.opacity = "0%"
+        sp1.style.opacity = "0%"
+        fnl.style.opacity = "0%"
+        flask.style.opacity = "0%"
+        eflask.style.opacity = "0%"
+        machine.style.opacity = "0%"
+        dwater.style.opacity = "0%"
+        water.style.opacity = "0%"
+        //fflask.style.opacity="0%"
+        oacrystal.style.opacity = "0%"
+        ecflask.style.visibility = "visible"
+        epipette.style.visibility = "visible"
+        abeaker.style.visibility = "visible"
+        epipette.style.transform = "rotate(-90deg)"
+        fpipette.style.transform = "rotate(-90deg)"
 
-        // setTimeout(function () {
-        //     pdish.style.visibility = "hidden"
-        //     reading.style.visibility = "hidden"
-        //     spatula.style.visibility = "hidden"
-        //     onbtn.style.visibility = "hidden"
-        //     tarebtn.style.visibility = "hidden"
-        //     sp.style.visibility = "hidden"
-        //     sp1.style.visibility = "hidden"
-        //     fnl.style.visibility = "hidden"
-        //     flask.style.visibility = "hidden"
-        //     eflask.style.visibility = "hidden"
-        //     machine.style.visibility = "hidden"
-        //     dwater.style.visibility = "hidden"
-        //     water.style.visibility = "hidden"
-        //     //fflask.style.visibility="hidden"
-        //     oacrystal.style.visibility = "hidden"
-        //     ecflask.style.opacity = "100%"
-        //     epipette.style.opacity = "100%"
-        //     abeaker.style.opacity = "100%"
+        setTimeout(function () {
+            pdish.style.visibility = "hidden"
+            reading.style.visibility = "hidden"
+            spatula.style.visibility = "hidden"
+            onbtn.style.visibility = "hidden"
+            tarebtn.style.visibility = "hidden"
+            sp.style.visibility = "hidden"
+            sp1.style.visibility = "hidden"
+            fnl.style.visibility = "hidden"
+            flask.style.visibility = "hidden"
+            eflask.style.visibility = "hidden"
+            machine.style.visibility = "hidden"
+            dwater.style.visibility = "hidden"
+            water.style.visibility = "hidden"
+            //fflask.style.visibility="hidden"
+            oacrystal.style.visibility = "hidden"
+            ecflask.style.opacity = "100%"
+            epipette.style.opacity = "100%"
+            abeaker.style.opacity = "100%"
 
-        //     fflask.style.height = "15%"
-        //     fflask.style.width = "6%"
-        //     fflask.style.left = "70%"
-        //     fflask.style.top = "60%"
+            fflask.style.height = "15%"
+            fflask.style.width = "6%"
+            fflask.style.left = "70%"
+            fflask.style.top = "60%"
 
-        //     update()
-        //     f = 12
-        // }, 1000)
+            update()
+            f = 12
+        }, 1000)
     }
+    if (f === 12) invisible();
 }
 
 function visible() {
@@ -434,6 +434,7 @@ function pipette() {
 
 function invisible() {
 
+    reading.style.visibility = "hidden"
     pdish.style.visibility = "hidden"
     spatula.style.visibility = "hidden"
     onbtn.style.visibility = "hidden"
@@ -441,6 +442,7 @@ function invisible() {
     sp.style.visibility = "hidden"
     sp1.style.visibility = "hidden"
     fnl.style.visibility = "hidden"
+    flask.style.visibility = "hidden"
     flask.style.visibility = "hidden"
     eflask.style.visibility = "hidden"
     dwater.style.visibility = "hidden"
