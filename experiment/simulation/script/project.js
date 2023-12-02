@@ -74,6 +74,7 @@ var fcflask = document.querySelector("#fcflask")
 var epipette = document.querySelector("#epipette")
 var fpipette = document.querySelector("#fpipette")
 var abeaker = document.querySelector("#abeaker")
+var button = document.querySelector("button")
 
 
 var f = 0
@@ -433,20 +434,5 @@ function pipette() {
 }
 
 function invisible() {
-
-    reading.style.visibility = "hidden"
-    pdish.style.visibility = "hidden"
-    spatula.style.visibility = "hidden"
-    onbtn.style.visibility = "hidden"
-    tarebtn.style.visibility = "hidden"
-    sp.style.visibility = "hidden"
-    sp1.style.visibility = "hidden"
-    fnl.style.visibility = "hidden"
-    flask.style.visibility = "hidden"
-    flask.style.visibility = "hidden"
-    eflask.style.visibility = "hidden"
-    dwater.style.visibility = "hidden"
-    machine.style.visibility = "hidden"
-    reading.style.opacity = "100hidden"
-    oacrystal.style.visibility = "hidden"
+    button.style.display = "none";
 }
