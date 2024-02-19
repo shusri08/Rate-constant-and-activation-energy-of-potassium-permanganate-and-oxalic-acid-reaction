@@ -91,7 +91,7 @@ update()
 
 function ok(){
     if(f==0){
-        bglab.src="/images/LAB 1ORGLKK zoom.png"
+        bglab.src="./images/LAB 1ORGLKK zoom.png"
         setTimeout(function(){
             visible()
         },500)
