@@ -523,22 +523,32 @@ html, body {
   opacity: 95%;
   border: 1px solid black;
   visibility: hidden;
+  /* visibility: visible; */
 }
 
 .tbl1,th,td{
   color: rgb(0, 0, 0);
- border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
   border-collapse: separate;
   text-align: center;
   justify-content: center;
   font-size: 1.8vw;
 }
 
+/* .th,td{
+  font-size: 1.5vw;
+} */
+
 #table1{
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 5%;
   visibility: hidden;
+  /* visibility: visible; */
+  /* font-size: 1.8vw; */
+  height: 80%;
+  width: 90%;
+  bottom: 10%;
 }
 
 #graph{
@@ -548,15 +558,17 @@ html, body {
   top: 6%;
   left: 5%;
   visibility: hidden;
+  /* visibility: visible; */
 }
 
 #graphtext{
   position: absolute;
   top: 90%;
   left: 5%;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 300;
   visibility: hidden;
+  /* visibility: visible; */
 }
 
 #formula{
@@ -564,9 +576,10 @@ html, body {
   left: 60%;
   top: 20%;
   text-align: left;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 100;
   visibility: hidden;
+  /* visibility: visible; */
 }
 
 
