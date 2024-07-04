@@ -66,6 +66,8 @@ function verify(){
             temptmeter=tmeter20
             on.style.border="1px solid rgb(241, 253, 15)"
             buttons.style.visibility="hidden"
+            counter=4
+            update()
         }
         else{
             popup.style.visibility="visible"
@@ -247,7 +249,7 @@ function colourchanger(){
             next.innerText="Repeat"
             flaskmix.style.visibility="hidden"
             flaskmix.style.animation="none"
-            counter=in2
+            counter=7
             update()
         },140000)
         setTimeout(function(){
@@ -267,7 +269,8 @@ function colourchanger(){
             next.innerText="Repeat"
             flaskmix.style.visibility="hidden"
             flaskmix.style.animation="none"
-            
+            counter=in2
+            update()
         },92000)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
@@ -286,6 +289,8 @@ function colourchanger(){
             next.innerText="Repeat"
             flaskmix.style.visibility="hidden"
             flaskmix.style.animation="none"
+            counter=in2
+            update()
         },40000)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
@@ -304,6 +309,8 @@ function colourchanger(){
             next.innerText="Repeat"
             flaskmix.style.visibility="hidden"
             flaskmix.style.animation="none"
+            counter=in2
+            update()
         },25000)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
@@ -319,6 +326,7 @@ function colourchanger(){
             trial="5st"
             f=10000
             next.style.visibility="visible"
+            next.style.width="65%"
             next.innerText="Observations"
             flaskmix.style.visibility="hidden"
             flaskmix.style.animation="none"

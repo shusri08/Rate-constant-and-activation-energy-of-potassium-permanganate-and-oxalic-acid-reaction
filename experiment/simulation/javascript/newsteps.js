@@ -60,14 +60,15 @@ function start1(){
     }
     else if(f==100){
         verify()
-        counter=4
-        update()
+        
     }
     else if(f==10000){
         tablesdiv.style.visibility="visible"
         table1.style.visibility="visible"
         setTimeout(function(){
             next.innerText="Next"
+            counter=16
+            update()
             f=10001
         },5000)
     }
@@ -76,6 +77,9 @@ function start1(){
         graph.style.visibility="visible"
         graphtext.style.visibility="visible"
         formula.style.visibility="visible"
+        next.style.visibility="hidden"
+        counter=17
+        update()
         f=10002
 
     }
@@ -122,6 +126,7 @@ function resize(){
     reading.style.height="3.3%"
     reading.style.width="3%"
     values.style.fontSize="2vw"
+    values.innerText="00"
     counter1()
 
 
