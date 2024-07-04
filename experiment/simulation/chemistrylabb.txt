@@ -1,0 +1,25 @@
+रसायन विज्ञान प्रयोगशाला
+प्रारंभ
+Rate Constant and Activation Energy of Potassium Permanganate and Oxalic Acid Reaction
+पोटेशियम परमैंगनेट और ऑक्सालिक एसिड प्रतिक्रिया की दर स्थिरांक और सक्रियण ऊर्जा
+instructions- निर्देश
+
+
+
+"पिपेट उठाएं और एक शंक्वाकार फ्लास्क में 20 एमएल (0.05(एम)) ऑक्सालिक एसिड डालें। फिर, 10 एमएल (0.02(एम)) KMnO4 घोल को एक परखनली में स्थानांतरित करने के लिए पिपेट पर क्लिक करें।
+'Next' बटन पर क्लिक करें.
+"ऑन/ऑफ हीटिंग" बटन पर क्लिक करके तापमान स्नान चालू करें और जल स्नान तापमान को 20 डिग्री सेल्सियस पर सेट करें (कुछ सीमा प्रतिबंधित होगी).
+थर्मामीटर, टेस्ट ट्यूब और शंक्वाकार फ्लास्क पर क्लिक करें। तीनों बर्तनों को कम से कम 5 मिनट के लिए पानी के स्नान में संतुलित करने के लिए रखें। ("चालू/बंद समय" बटन पर क्लिक करें। टाइमर दिखाई देगा).
+टेस्टट्यूब पर क्लिक करें और शंक्वाकार फ्लास्क में टेस्टट्यूब का KMnO4 घोल डालें, फिर स्टॉप वॉच शुरू हो जाएगी। प्रतिक्रिया मिश्रण को पानी के स्नान से बाहर निकाले बिना नियमित रूप से घुमाएँ। (यदि नहीं किया गया तो त्रुटि जोड़ दी जाएगी).
+उस समय को रिकॉर्ड करें जब मिश्रण चमकीले बैंगनी से पीले/भूरे रंग में बदल जाएगा.
+प्रयोग को दोहराएं और अन्य 4 तापमानों के लिए भी ऐसा ही करें। सभी मूल्यों को नोट कर लें.
+
+
+
+Pick up the pipette and dispense 20 mL of (0.05(M)) oxalic acid into a conical flask. Then, Click on the pipette to transfer 10 mL of (0.02(M)) KMnO4 solution into a test tube.
+Click the 'Next' button.
+Turn on the temperature bath by clicking the "ON/OFF Heating" button and set the water bath temperature to 20°C (some range will be restricted).
+Click on the thermometer, test tube, and conical flask. Place all three vessels in the water bath to equilibrate for at least 5 minutes. (Click the "ON/OFF Time" button. Timer will appear).
+Click on the testtube and Add the KMnO4 solution of test tube in the conical flask then stop watch will started. Swirl the reaction mixture regularly without taking it out of the water bath. (if not done, error will be added up).  
+Record the time when the mixture will be turned to yellow/brown from bright purple.
+Repeat the experiment and do the same for other 4 temperatures. Note down all the values.

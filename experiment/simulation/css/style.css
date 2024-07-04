@@ -14,6 +14,13 @@
 html, body {
   width: 100%;
   height: 100%;
+  position: relative;
+}
+
+#main{
+  height: 42.7vmax;
+  width: 100vmax;
+  position: absolute;
 }
 
 .header{
@@ -21,9 +28,9 @@ html, body {
   background-color: rgb(150, 136, 136);
   height: 7%;
   width: 100%; 
-  display: none;
+  display: flex;
   align-items: center;
-  position: relative;
+  position: absolute;
   
 }
 .header h1{
@@ -35,92 +42,61 @@ html, body {
 .container{
   width: 100%;
   height: 100%;
-  position:relative;
-  /* font-size: 5rem; */
-
+  position:absolute;
+  top: 7%;
 }
-.container img{
+
+#labpic{
   height: 100%;
   width: 100%;
   position:absolute;
 }
 
-.container1{
-  width:80%;
-  height:100%;
-  position:absolute;
-}
-
 .instructionsBox{
-  bottom: 100px;
-  right: 0;
-  margin: auto;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width:50%;
-  /* height:8%; */
-  /* top:0%; */
-  left: -5%;
-  border:2px solid black;
-  /* background-color:  black; */
-    position: absolute;
   overflow: hidden;
   text-align: center;
-  box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+  border:1px solid black;
+  height: 20%;
+  top: 67.5%;
+  left: 22.5%;
+
 }
 
-h6{ 
-  /* text-align: center; */
-
+#INSTRUCTIONS{ 
   font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vw;
-    color: black;
-    /* left: 2%; */
-    border-bottom: dotted;
-    /* width: 12%; */
-    margin: 1%;
-    /* top: 5%; */
-
-    
+  font-size: 2.5vw;
+  color: black;
+  border-bottom: dotted;
+  margin: 1%;
 }
 
 #message {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2vw;
   color: green;
-  /* position: absolute;
-  left: 8%; /* Start off-screen */
-  /* top: 2%; */ 
-  width: 80%;
   margin: 1%;
+  font-weight: 100;
   animation: slideFromLeft 10s ease-in-out forwards; /* Animation to slide from left */
 }
 
-/* @keyframes slideFromLeft {
-  from {
-    left: -50%; 
-  }
-  to {
-    left: 20%; 
-  }
-} */
+
+
+
 .box{
   width:20%;
   height:92%;
   top:8%;
   left: 80%;
-  /* border:1px solid black; */
-  /* background-color: rgba(154, 154, 154, 0.868); */
   position: absolute;
-  /* overflow: hidden; */
-  /* text-align: center; */
 }
 
 #langselector {
   position: absolute;
-  /* top: 10%; */
-  /* left: 15%; */
   width: 100%;
   height: 100%;
   border: 4px solid #fff;
@@ -145,18 +121,19 @@ h6{
   color: white;
 }
 
-#hindi,
-#eng {
+#hindi,#eng {
   position: absolute;
   top: 55%;
-  padding: 1%;
-  border-radius: 25%;
-  font-weight: 1000;
+  padding: 0%;
+  border-radius: 7%;
+  font-weight: 100;
   font-family: sans-serif;
-  width: 13%;
+  width: 8%;
   box-shadow: 2px 2px 0px 1px rgb(153, 156, 156);
   background-color: rgb(46, 49, 49);
   border: 1px solid aliceblue;
+  color: aqua;
+  font-size: 2vw;
 }
 
 #eng {
@@ -164,6 +141,11 @@ h6{
 }
 #hindi{
   left: 25%;
+}
+
+#hindi:active,#eng:active{
+  scale: 0.9;
+
 }
 
 #speakbtn {
@@ -202,7 +184,6 @@ h6{
   width: 12%;
   transition: all;
   transition-duration: 1S;
-  /* object-fit: contain; */
   }
   
 #potassium100 {
@@ -213,7 +194,6 @@ h6{
   width: 6%;
   transition: all;
   transition-duration: 1S;
-  /* object-fit: contain; */
   
 
 }
@@ -231,7 +211,6 @@ h6{
 }
 
 #on{
-  /* background-color: rgb(0, 255, 34); */
   position: absolute;
   height: 3.5%;
   width: 3.3%;
@@ -245,35 +224,29 @@ h6{
 }
 
 #plus1{
-  /* background-color: rgb(0, 255, 34); */
   position: absolute;
   height: 3.5%;
   width: 2.0%;
   top: 43.9%;
   left: 52.5%;
-  /* border: 1px solid rgb(0, 255, 38); */
 
 }
 
 #minus1{
-  /* background-color: rgb(0, 255, 34); */
   position: absolute;
   height: 3.5%;
   width: 2%;
   top: 49.3%;
   left: 52.5%;
-  /* border: 1px solid rgb(0, 255, 38); */
 
 }
 
 #reading{
-  /* background-color: rgb(0, 255, 34); */
   position: absolute;
   height: 3.3%;
   width: 3%;
-  top: 40.3%;
+  top: 39.7%;
   left: 54.3%;
-  /* border: 1px solid rgb(0, 255, 38); */
   transition: all;
   transition-duration: 1S;
   visibility: hidden;
@@ -282,17 +255,16 @@ h6{
 }
 
 #values{
-  /* background-color: rgb(0, 255, 34); */
   color: red;
   position: absolute;
   top: 0%;
   font-family: digital;
-  font-size: 1.5rem;
+  font-size: 2vw;
+  font-weight: 100;
   left: 25%;
   opacity: 0%;
   transition: all;
   transition-duration: 1s;
-  /* font-size: 1.2rem; */
 }
 
 #buttons2{
@@ -300,7 +272,6 @@ h6{
 }
 
 #on10{
-  /* background-color: rgb(0, 255, 34); */
   position: absolute;
   height: 3%;
   width: 2.2%;
@@ -313,62 +284,6 @@ h6{
 
 }
 
-#plus10{
-  /* background-color: rgb(0, 255, 34); */
-  position: absolute;
-  height: 2.4%;
-  width: 1.4%;
-  top: 49.9%;
-  left: 66.1%;
-  /* border: 1px solid rgb(0, 255, 38); */
-
-}
-
-#minus10{
-  /* background-color: rgb(0, 255, 34); */
-  position: absolute;
-  height: 2.4%;
-  width: 1.4%;
-  top: 53.7%;
-  left: 66.1%;
-  /* border: 1px solid rgb(0, 255, 38); */
-
-}
-
-#reading1{
-  /* background-color: rgb(0, 255, 34); */
-  position: absolute;
-  height: 2.6%;
-  width: 4%;
-  top: 47.1%;
-  left: 61.3%;
-  /* border: 1px solid rgb(0, 255, 38); */
-  transition: all;
-  transition-duration: 1S;
-  visibility: hidden;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  
-
-}
-
-#values1{
-  /* background-color: rgb(0, 255, 34); */
-  color: rgb(56, 206, 2);
-  position: absolute;
-  font-family: digital;
-  font-size: 1.2rem;
-  opacity: 0%;
-  transition: all;
-  transition-duration: 1s;
-  /* font-size: 1.2rem; */
-}
-
-
-
-
 #popup{
   position: absolute;
   height: 10%;
@@ -379,14 +294,14 @@ h6{
   border: 1px solid black;
   border-radius: 1%;
   justify-content: center;
-  /* align-content: center; */
   display: flex;
+  align-items: center;
   visibility: hidden;
 }
 
 #ptext{
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1.6vw;
   font-weight: 100;
   color: red;
   text-align: center;
@@ -441,9 +356,6 @@ h6{
   opacity: 0%;
   visibility: hidden;
   scale: 0.9;
-  /* animation: mix;
-  animation-iteration-count: infinite;
-  animation-duration: 0.3s; */
   
 }
 
@@ -458,7 +370,6 @@ h6{
   opacity: 0%;
   visibility: hidden;
   scale: 0.9;
-  /* animation: mix; */
   animation-iteration-count: infinite;
   animation-duration: 0.3s;
   
@@ -485,28 +396,7 @@ h6{
   top: 6%;
   height: 56%;
   width: 22%;
-  /* transition: all;
-  transition-duration: 1S; */
 }
-
-/* #tstand{
-left: 9.5%;
-position: absolute;
-top: 24%;
-height: 35%
-
-
-}
-*/
-  /* #tstand2{
-    left: 12%;
-    position: absolute;
-    top: 28%;
-    height: 30%;
-    width: 29.5%;
-    transition: all;
-  transition-duration: 1S;
-  } */
 
   #tstand{
     left: 20.1%;
@@ -599,11 +489,6 @@ height: 35%
   opacity: 0%;
 }
 
-.homeicon img{
-  height: 35px;
-  width: 35px;
-  
-}
 .header-text-container{
   width: 90%;
   left: 5%;
@@ -611,9 +496,19 @@ height: 35%
   justify-content: center;
   position: absolute;
 }
-.homeicon{
-  padding: 10px;
+#homeicon{
   position: absolute;
+  height: 100%;
+  width: 5%;
+}
+
+#htext{
+  font-size: 1.3vw;
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
 }
 
 
@@ -628,11 +523,9 @@ height: 35%
   opacity: 95%;
   border: 1px solid black;
   visibility: hidden;
-  /* visibility: visible; */
 }
 
 .tbl1,th,td{
-  /*background-color: rgb(245, 243, 243);*/
   color: rgb(0, 0, 0);
  border: 1px solid rgb(0, 0, 0);
   border-collapse: separate;
@@ -710,21 +603,3 @@ height: 35%
   rotate: -3deg;}
 }
 
-
-/* @keyframes mix {
-  0% {
-    transform: rotate(0deg) translate(0px);
-  }
-  25% {
-    transform: rotate(45deg) translate(5px);
-  }
-  50% {
-    transform: rotate(90deg) translate(10px);
-  }
-  75% {
-    transform: rotate(135deg) translate(5px);
-  }
-  100% {
-    transform: rotate(180deg) translate(0px);
-  }
-} */

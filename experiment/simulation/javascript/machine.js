@@ -4,6 +4,7 @@ var minus1 = document.querySelector("#minus1")
 var values = document.querySelector("#values")
 var machinedv = document.querySelector("#machineoperator")
 var popup = document.querySelector("#popup")
+var ptext = document.querySelector("#ptext")
 var buttons = document.querySelector("#buttons")
 var tmeter20 = document.querySelector("#tmeter20")
 var buttons2 = document.querySelector("#buttons2")
@@ -18,6 +19,8 @@ var oner = 0
 var temptmeter
 var trial = "0st"
 var ttemp = 20
+var in1 = 3
+var in2=7
 // var timer = "none"
 
 
@@ -66,6 +69,7 @@ function verify(){
         }
         else{
             popup.style.visibility="visible"
+            ptext.innerText="You selected temperature 'more/less' than required Please select right temperature"
             popuphider()
             
         }
@@ -76,7 +80,6 @@ function verify(){
 function popuphider(){
         setTimeout(function(){
             popup.style.visibility="hidden"
-            ptext.innerText="You selected temperature 'more/less' than required <br>Please select right temperature"
         },5000)
 }
 
@@ -162,6 +165,8 @@ function testtube(){
                                     flaskmix.style.animation="mix"
                                     flaskmix.style.animationDuration="0.3s"
                                     flaskmix.style.animationIterationCount="infinite"
+                                    counter=6
+                                    update()
                                     startBtn()
                                     colourchanger()
                                 },1000)
@@ -215,6 +220,8 @@ function on110(){
                 setTimeout(function(){
                     popup.style.visibility="visible"
                     popuphider()
+                    counter=5
+                    update()
                 },500)
             },305000)
         },1000)
@@ -240,6 +247,8 @@ function colourchanger(){
             next.innerText="Repeat"
             flaskmix.style.visibility="hidden"
             flaskmix.style.animation="none"
+            counter=in2
+            update()
         },140000)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
@@ -313,6 +322,8 @@ function colourchanger(){
             next.innerText="Observations"
             flaskmix.style.visibility="hidden"
             flaskmix.style.animation="none"
+            counter=15
+            update()
         },9000)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
@@ -329,17 +340,25 @@ function counter1(){
     if(trial=="1st"){
         tmeter20.src="img/30Thermometerorg.png"
         ttemp=30
+        in1=11
+        in2=8
     }
     else if(trial=="2st"){
         tmeter20.src="img/40Thermometerorg.png"
         ttemp=40
+        in1=12
+        in2=9
     }
     else if(trial=="3st"){
         tmeter20.src="img/50Thermometerorg.png"
         ttemp=50
+        in1=13
+        in2=10
     }
     else if(trial=="4st"){
         tmeter20.src="img/60Thermometerorg.png"
         ttemp=60
+        in1=14
+        in2=11
     }
 }

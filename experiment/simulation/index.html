@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXP-5 Rate constant and activation energy of potassium permanganate and oxalic acid reaction</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stopwatch.css">
 </head>
 <body>
-    
+    <div id="main">
         <div class="header" id="header">
-            <div class="homeicon">
+            <div id="homeicon">
                 <a href="index.html">
-                    <img src="img/Home.png" alt="Home Page" title="Restart the experiment.,प्रयोग पुनः प्रारंभ करें.">
+                    <img id="htext" src="img/Home.png" alt="Home Page" title="Restart the experiment.,प्रयोग पुनः प्रारंभ करें.">
                 </a>
             </div>
             <div class="header-text-container">
@@ -25,20 +26,15 @@
         <div class="container" id="bod">  
             <img id="labpic" src="img/LABfinal1221.png" alt="lab">
             
-            <div class="instructionsBox">
-                <h6 id="INSTRUCTIONS">INSTRUCTIONS:</h6><marquee> <h1 id="message">start</h1></marquee>
-            </div>
-
+            
             <!-- -----------------------   INSTRUMENTS  --------------------------------- -->
-
+            
             <div class="instruments">
                 <img id="tstand" src="img/testtubestand1.png" alt="" title="Testtube Stand">
-                <!-- <img id="tstand2" src="img/testtubestand.png" alt=""> -->
                 <img id="blank" src="img/100mlblank.png" alt="" title="Conical flask 100ml">
                 <img id="drop" src="img/oxalicaciddrops.png" alt="">
                 <img id="potassium100" src="img/potassium100.png" alt="" title="Potassium permanganate solution 0.02(M)100ml"> 
                 <img id="oxalic100ml" src="img/100mloxalicacid12.png" alt="" title="Oxalic acid solution 0.5(M)100ml">
-                <!-- <img id="cstand" src="img/clampstand.png" alt="" title="Clamp Stand"> -->
                 <img id="cstand" src="img/clampstand copy.png" alt="" title="Clamp Stand">
                 <img id="ulbath" src="img/HeatingBath.png" alt="" title="Temperature Bath">
                 <img id="ttube" src="img/testtube.png" alt="" title="Testtube">
@@ -47,8 +43,8 @@
                 <img id="flask20ml" onclick="flask20mlwala()" src="img/100mlblank20mloxalic.png" alt="">
                 <img id="flaskmix" src="img/100mlmix.png" alt="">
                 <img id="flaskchange" src="img/100mlmixaftershaking.png" alt="">
-
-
+                
+                
                 <div id="machineoperator">
 
                     <div id="buttons">
@@ -63,61 +59,52 @@
                     <div id="reading">
                         <h3 id="values">00</h3>
                     </div>
-
+                    
                     <div id="buttons2">
                         <div id="on10" onclick="on110()">
                         </div>
                     </div>
-
-
-
+                    
+                    
+                    
                     <!-- ----------------------------------------------   stopwatch   ---------------------------------------- -->
-
-
+                    
+                    
                     <div id="time"> 
-                        <!-- <span class="txt"></span>  -->
-                        <span class="digit" id="min"> 
-                            00</span> 
-                        <!-- <span class="txt"></span>  -->
-                        <span class="digit" id="collon"> 
-                            :</span> 
-                        <span class="digit" id="sec"> 
-                            00</span> 
-                        <!-- <span class="txt"></span>  -->
+                        <span class="digit" id="min">00</span> 
+                        <span class="digit" id="collon">:</span> 
+                        <span class="digit" id="sec"> 00</span> 
                     </div> 
 
-                    <!-- <div id="buttonsall"> 
-                        <button class="btn" id="start"> 
-                            Start</button> 
-                        <button class="btn" id="stop"> 
-                            Stop</button> 
-                        <button class="btn" id="reset"> 
-                            Reset</button> 
-                    </div>  -->
 
 
-                    <div id="popup">
-                        <h1 id="ptext">You selected temperature 'more/less' than required <br>Please select right temperature</h1>
-                    </div>
-                    
+                        <div id="popup">
+                            <h1 id="ptext">You selected temperature 'more/less' than required <br>Please select right temperature</h1>
+                        </div>
+                        
                 </div>
-
-
-                
-                <img id="tmeter" onclick="thermometer()" src="img/emptyThermometer1.png" alt="" title="Thermometer">
-                <img id="tmeter20" src="img/20Thermometerorg.png" alt="">
-                <img id="pipet10" src="img/pipetteoxalicacid.png" alt="">
-                <img id="pipetkmno4" src="img/pipettekmno4.png" alt="">
-                <img id="pipet" onclick="pipet1()" src="img/pipetteblank.png" alt="" title="Pipette 10ml">
+                    
+                    
+                    
+                    <img id="tmeter" onclick="thermometer()" src="img/emptyThermometer1.png" alt="" title="Thermometer">
+                    <img id="tmeter20" src="img/20Thermometerorg.png" alt="">
+                    <img id="pipet10" src="img/pipetteoxalicacid.png" alt="">
+                    <img id="pipetkmno4" src="img/pipettekmno4.png" alt="">
+                    <img id="pipet" onclick="pipet1()" src="img/pipetteblank.png" alt="" title="Pipette 10ml">
                 
                 
                 
             </div>
             
+            <div class="instructionsBox">
+                <h6 id="INSTRUCTIONS">INSTRUCTIONS:</h6><marquee> 
+                <h1 id="message">start</h1></marquee>
+            </div>
+        
             <div id="tablesdiv">
                 <table id="table1" class="tbl1">
                     <thead>
-                      <tr>
+                    <tr>
                         <th>S. No. </th>
                         <th>Temp (<sup>0</sup>C)</th>
                         <th>Temp (K)</th>
@@ -128,10 +115,10 @@
                         <th>Rate= <br> [KMnO<sub>4</sub>]/t <br>(mol L<sup>-1</sup>s<sup>-1</sup>)</th>
                         <th>k <br> (mol<sup>-1</sup> Ls <sup>-1</sup>)</th>
                         <th>Ink</th>
-                      </tr>
+                    </tr>
                     </thead>
                     <tbody>
-                      <tr>
+                    <tr>
                         <td>1</td>
                         <td>20</td>
                         <td>293</td>
@@ -142,8 +129,8 @@
                         <td>0.0000228</td>
                         <td>0.0103</td>
                         <td>-4.575</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>2</td>
                         <td>30</td>
                         <td>303</td>
@@ -154,8 +141,8 @@
                         <td>0.0000728</td>
                         <td>0.033</td>
                         <td>-3.411</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>3</td>
                         <td>40</td>
                         <td>313</td>
@@ -166,8 +153,8 @@
                         <td>0.0001675</td>
                         <td>0.075</td>
                         <td>-2.590</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>4</td>
                         <td>50</td>
                         <td>323</td>
@@ -178,8 +165,8 @@
                         <td>0.000268</td>
                         <td>0.121</td>
                         <td>-2.111</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>5</td>
                         <td>60</td>
                         <td>333</td>
@@ -190,12 +177,12 @@
                         <td>0.0000744</td>
                         <td>0.336</td>
                         <td>-1.09</td>
-                      </tr>
+                    </tr>
                     </tbody>
-                  </table>
-                  <img id="graph" src="img/graph.jpg" alt="">
-                  <h1 id="graphtext">Activation Energy for this chemical reaction = 68.75 kJ mol<sup>-1</sup></h1>
-                  <h1 id="formula"> Therefore, <br>Slope = -Ea/R = -8270 K <br> Then E<sub>a</sub> <i>E</i><sub>a</sub> = (8270 K X <i>R</i>) <br> = (8270 K X 8.314 <i>J</i> mol<sup>-1</sup>K<sup>-1</sup>) <br> =68.75 k<i>J</i> mol<sup>-1</sup></h1>
+                </table>
+                <img id="graph" src="img/graph.jpg" alt="">
+                <h1 id="graphtext">Activation Energy for this chemical reaction = 68.75 kJ mol<sup>-1</sup></h1>
+                <h1 id="formula"> Therefore, <br>Slope = -Ea/R = -8270 K <br> Then E<sub>a</sub> <i>E</i><sub>a</sub> = (8270 K X <i>R</i>) <br> = (8270 K X 8.314 <i>J</i> mol<sup>-1</sup>K<sup>-1</sup>) <br> =68.75 k<i>J</i> mol<sup>-1</sup></h1>
             </div>
             <!-- ----------------------------    NEXT BUTTON  --------------------------------- -->
 
@@ -205,14 +192,15 @@
 
             <!-- --------------------------    LANGUAGE SELECTOR  ----------------------------------- -->
 
-            <div id="langselector">
-            <h1  id="heading">WELCOME TO THE  VIRTUAL CHEMISTRY  LAB</h1> 
-            <br>
-            <h2 id="lselector">Please select your preferred language !</h2>
-            <br> <br>
-            <button id="hindi" onclick="hindi1()">Hindi</button>
-            <button id="eng" onclick="eng1()">English</button>
         </div>
+    </div>
+    <div id="langselector">
+        <h1  id="heading">WELCOME TO THE  VIRTUAL CHEMISTRY  LAB</h1> 
+        <br>
+        <h2 id="lselector">Please select your preferred language !</h2>
+        <br> <br>
+        <button id="hindi" onclick="hindi1()">हिंदी</button>
+        <button id="eng" onclick="eng1()">English</button>
     </div>
     <script src="javascript/script.js"></script>
     <script src="javascript/newsteps.js"></script>

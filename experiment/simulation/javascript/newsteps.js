@@ -44,6 +44,8 @@ function start1(){
         next.style.visibility="hidden"
         next.innerText="Next"
         resize()
+        counter=1
+        update()
         f=1
         // f=7
         sample=1
@@ -52,10 +54,14 @@ function start1(){
     }
     else if (f==7){
         firsthide()
+        counter=in1
+        update()
         f=8
     }
     else if(f==100){
         verify()
+        counter=4
+        update()
     }
     else if(f==10000){
         tablesdiv.style.visibility="visible"
@@ -112,10 +118,10 @@ function resize(){
     flask20ml.style.width="7%"
     flask20ml.style.height="18%"
     reading.style.left="54.3%"
-    reading.style.top="40.3%"
+    reading.style.top="39.7%"
     reading.style.height="3.3%"
     reading.style.width="3%"
-    values.style.fontSize="1.5rem"
+    values.style.fontSize="2vw"
     counter1()
 
 
@@ -140,10 +146,10 @@ function resizemachine(){
     ulbath.style.scale="1"
     ulbath.style.top="32%"
     reading.style.left="57%"
-    reading.style.top="47.1%"
+    reading.style.top="46.9%"
     reading.style.height="2.6%"
     reading.style.width="2.3%"
-    values.style.fontSize="1.2rem"
+    values.style.fontSize="1.3vw"
     buttons.style.visibility="hidden"
     cstand.style.visibility="visible"
     cstand.style.left="55%"
@@ -299,6 +305,8 @@ function simulation1st(){
                                         pipetkmno4.style.visibility="hidden"
                                         f=7
                                         sample+=2
+                                        counter=2
+                                        update()
                                         next.style.visibility="visible"
                                     },1000)
                                 },1000)
